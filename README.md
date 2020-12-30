@@ -1,3 +1,3 @@
 # alihan_csharp_example
 
-* [StudentNoteSystem](Ögrenci Not Sistemi)
+* [Ögrenci Not Sistemi](StudentNoteSystem)
