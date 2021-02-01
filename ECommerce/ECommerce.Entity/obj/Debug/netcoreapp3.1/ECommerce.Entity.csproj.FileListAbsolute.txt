@@ -1,0 +1,9 @@
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\bin\Debug\netcoreapp3.1\ECommerce.Entity.deps.json
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\bin\Debug\netcoreapp3.1\ECommerce.Entity.dll
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\bin\Debug\netcoreapp3.1\ECommerce.Entity.pdb
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.csprojAssemblyReference.cache
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.AssemblyInfoInputs.cache
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.AssemblyInfo.cs
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.dll
+C:\Users\Z0048KEM\source\repos\ECommerce\ECommerce.Entity\obj\Debug\netcoreapp3.1\ECommerce.Entity.pdb

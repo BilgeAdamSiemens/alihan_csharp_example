@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ECommerce.Data/1.0.0": {
+        "dependencies": {
+          "ECommerce.Entity": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce.Data.dll": {}
+        }
+      },
+      "ECommerce.Entity/1.0.0": {
+        "runtime": {
+          "ECommerce.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerce.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
