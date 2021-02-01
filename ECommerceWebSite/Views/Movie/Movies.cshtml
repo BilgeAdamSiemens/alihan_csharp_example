@@ -1,0 +1,55 @@
+﻿@using WebApplication3.Models;
+
+@{
+    Movie movie = Model;
+}
+
+@*@model WebApplication3.Models.Movie;*@
+
+@*@Model.Title*@
+@*@Model.Description
+    @Model.Actors
+    @Model.Director*@
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bayrktlihn</title>
+    <style>
+        .movie {
+            border: 1px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+            .movie .title {
+                border-bottom: 1px solid #000;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>Film Listesi</h1>
+    <div id="movies">
+
+
+        <div class="movie">
+            <p class="title">@movie.Title</p>
+            <p class="description">@movie.Description</p>
+            <p class="director">@movie.Director</p>
+            <p class="actors">
+                <ul>
+                    @foreach (String actor in movie.Actors)
+                    {
+                        <li>@actor</li>
+                    }
+                </ul>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

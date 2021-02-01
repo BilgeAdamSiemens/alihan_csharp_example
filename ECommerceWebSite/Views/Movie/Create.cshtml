@@ -1,0 +1,78 @@
+﻿@model MovieGenresViewModel
+
+
+@{
+    Movie movie = Model.Movie;
+    List<Genre> genres = Model.Genres;
+    String actors = null;
+    if (movie.Actors != null)
+        actors = String.Join(',', movie.Actors);
+}
+
+
+@section menu
+{
+    @await Component.InvokeAsync("Genres")
+}
+
+
+<form method="post" asp-controller="Movie" asp-action="Create" enctype="multipart/form-data">
+
+    <input type="hidden" name="Movie.Id" value="@movie.Id" />
+
+    <div class="form-group">
+        <label asp-for="Movie.Title"></label>
+        <input asp-for="Movie.Title" value="@movie.Title" class="form-control">
+        <span asp-validation-for="Movie.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Movie.Director"></label>
+        <input asp-for="Movie.Director" value="@movie.Director" class="form-control">
+        <span asp-validation-for="Movie.Director" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Movie.Description"></label>
+        <input asp-for="Movie.Description" value="@movie.Description" class="form-control">
+        <span asp-validation-for="Movie.Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Movie.Popularity"></label>
+        <input asp-for="Movie.Popularity" value="@movie.Popularity" class="form-control">
+        <span asp-validation-for="Movie.Popularity" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="genre">Genre</label>
+        <select class="form-control" id="genre" name="genreId">
+            @foreach (Genre genre in Model.Genres)
+            {
+                <option value="@genre.Id">@genre.Name</option>
+            }
+        </select>
+
+    </div>
+    @*<div class="form-group">
+            <label asp-for="Movie.ImageUrl" for=""></label>
+            <input asp-for="Movie.ImageUrl" value="@movie.ImageUrl" class="form-control">
+            <span asp-validation-for="Movie.Title" class="text-danger"></span>
+        </div>*@
+
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+        </div>
+        <div class="custom-file">
+            <input name="ImageUrl" type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="">Actors</label>
+
+        <input type="text" name="TheActors" class="form-control" value="@actors" id="theActors">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

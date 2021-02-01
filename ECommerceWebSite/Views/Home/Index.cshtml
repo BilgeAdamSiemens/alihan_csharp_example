@@ -1,0 +1,24 @@
+﻿@{
+    List<Movie> movies = Model;
+}
+
+@section header{
+    @await Html.PartialAsync("_header")
+}
+
+@section Scripts{
+    <script src="~/js/script.js"></script>
+}
+
+<div id="movies">
+    @foreach (Movie movie in movies)
+    {
+
+        @await Html.PartialAsync("_movie", movie)
+    }
+
+</div>
+
+@section menu{
+    @await Component.InvokeAsync("Genres")
+}
