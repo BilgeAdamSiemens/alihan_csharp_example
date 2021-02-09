@@ -180,24 +180,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alihan\\.nuget\\packages\\": {}
+    "C:\\Users\\Z0048KEM\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj",
+      "projectUniqueName": "c:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj",
-      "packagesPath": "C:\\Users\\alihan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\obj\\",
+      "projectPath": "c:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj",
+      "packagesPath": "C:\\Users\\Z0048KEM\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alihan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Z0048KEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

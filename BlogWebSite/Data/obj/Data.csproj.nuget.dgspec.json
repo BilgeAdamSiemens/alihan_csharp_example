@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\alihan\\Desktop\\New folder (3)\\Data\\Data.csproj": {}
+    "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Data\\Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\alihan\\Desktop\\New folder (3)\\Data\\Data.csproj": {
+    "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\alihan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Z0048KEM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alihan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Z0048KEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj": {
-                "projectPath": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj"
+              "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj"
               }
             }
           }
@@ -71,22 +73,24 @@
         }
       }
     },
-    "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj": {
+    "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\alihan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alihan\\Desktop\\New folder (3)\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Z0048KEM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Z0048KEM\\Desktop\\BlogWebSite\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alihan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Z0048KEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

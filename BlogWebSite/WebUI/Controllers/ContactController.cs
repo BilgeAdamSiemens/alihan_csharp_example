@@ -21,6 +21,7 @@ namespace WebUI.Controllers
         public IActionResult Index(){
             
             MessageViewModel message = new MessageViewModel();
+            ViewBag.Message = TempData["Message"];
             return View(message);
         }
 
@@ -32,8 +33,8 @@ namespace WebUI.Controllers
                 _myDbContext.Messages.Add(message);
                 _myDbContext.SaveChanges();
                 
-                ViewBag.Message = "Mesajınız alındı. Teşekkür ederiz.";
-                return View(new MessageViewModel());
+                TempData["Message"] = "Mesajınız alındı. Teşekkür ederiz.";
+                return Redirect("/Contact");
             }
 
             return View(messageViewModel);

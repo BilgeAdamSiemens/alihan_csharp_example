@@ -5,20 +5,25 @@ namespace WebUI.ViewModels
 {
     public class MessageViewModel
     {
-        [Required(ErrorMessage = "Name Alanı gereklidir.")]
         [DisplayName("İsim")]
+        [Required(ErrorMessage = "Name Alanı gereklidir.")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Email Adres Alanı Gereklidir.")]
+        [Required(ErrorMessage = "Email Adres Alanı gereklidir")]
         [DisplayName("Email Adres")]
+        [DataType(DataType.EmailAddress)]
+        [EmailAddress(ErrorMessage = "Email Adresi Yanlış Bir Biçimde Girildi.")]
         public string EmailAddress { get; set; }
 
-        [Required(ErrorMessage = "Telefon Numarası Alanı Gereklidir.")]
+        
+        [Required(ErrorMessage = "Telefon Numarası Alanı gereklidir")]
         [DisplayName("Telefon Numarası")]
+        [DataType(DataType.PhoneNumber)]
+        [Phone(ErrorMessage = "Hatalı Telefon Numarası Girildi.")]
         public string PhoneNumber { get; set; }
 
-        [Required(ErrorMessage = "Mesaj Alanı Gereklidir.")]
         [DisplayName("Mesaj")]
+        [Required(ErrorMessage = "Mesaj Alanı Gereklidir.")]
         public string Text { get; set; }
     }
 }
